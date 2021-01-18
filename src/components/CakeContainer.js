@@ -5,7 +5,7 @@ import { buyCake } from "../redux";
 function CakeContainer(props) {
   return (
     <div>
-      <h2>Number of Cakses - {props.numberOfCakes}</h2>
+      <h2>Num. of Cakses - {props.numberOfCakes}</h2>
       <button onClick={props.buyCake}>Buy Cakes</button>
     </div>
   );
